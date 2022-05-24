@@ -1,0 +1,6 @@
+.terraform
+.idea
+terraform.tfvars
+*/kubeconfig_main
+*/sftp-idp.zip
+__pycache__/

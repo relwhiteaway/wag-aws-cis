@@ -14,11 +14,6 @@ provider "aws" {
   profile = "wag-securityhub"
 
 }
-/*
-resource "aws_organizations_account" "securityhub" {
-  # (resource arguments)
-}
-*/
 
 resource "aws_organizations_account" "securityhub" {
       email            = "rel@whiteaway.com"
